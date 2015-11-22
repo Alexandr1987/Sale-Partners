@@ -276,11 +276,12 @@ li.parent_drop_menu ul li a{
   }
   ul{
     li.parent_drop_main_menu{
-      width: 120px;
+      width: 20px;
       position:relative;
       z-index:1000;
       text-align: right;
       padding-right:20px;
+      float:right;
       a{
         padding-bottom:15px !important;
 
@@ -294,7 +295,7 @@ li.parent_drop_menu ul li a{
       position:absolute;
       z-index:1000;
       background: #d65414;
-      left:-49px;
+      left:-160px;
       top:46px;
       text-align:left;
       display:none;
@@ -329,8 +330,8 @@ li.parent_drop_menu ul li a{
   padding: 30px 20px 30px 20px;
   .in_search{
     width:100%;
-    form{
-      width:100%;
+    border:1px solid #d7d7d7;
+    position:relative;
       input{
         width:90%;
         height:37px;
@@ -339,9 +340,19 @@ li.parent_drop_menu ul li a{
         line-height:37px;
         border:none;
         background:url('../img/search.png') no-repeat 30px center;
-        outline:1px solid #d7d7d7;
+        position:relative;
+        z-index:10;
+        display:block;
       }
-    }
+      span{
+        position:absolute;
+        top:14px;
+        left:68px;
+        display:block;
+        width:100%;
+        font-size:14px;
+      }
+
   }
 
 }
@@ -379,3 +390,4 @@ li.parent_drop_menu ul li a{
   }
 }
 */
+
