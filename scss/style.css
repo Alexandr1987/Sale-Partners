@@ -61,7 +61,7 @@ body {
       background: #fff; }
       .wrapper .top_menu ul li ul.drop_menu li {
         float: none;
-        margin-top: 6px; }
+        margin-top: 16px; }
         .wrapper .top_menu ul li ul.drop_menu li a:hover {
           text-decoration: underline;
           color: #e18253; }
@@ -270,28 +270,26 @@ li.parent_drop_menu ul li a {
     .search .in_search form {
       position: relative;
       z-index: 10; }
-    .search .in_search input {
+    .search2 .in_search2 input {
       width: 500px;
       height: 37px;
       font-size: 14px;
       line-height: 37px;
       border: none;
-      position: relative;
-      z-index: 10;
-      display: block;
-      float: left;
-      background: none; }
-    .search .in_search button {
+	  display:inline-block;
+      background: none;
+float:left;	  }
+    .search2 .in_search2 button {
       width: 100px;
       line-height: 37px;
       height: 37px;
-      float: left;
+      display:block;
+	  float:left;
       background: url("../img/search.png") no-repeat 40px center;
-      position: relative;
-      z-index: 10;
+     
       border: none;
       cursor: pointer;
-      display: block; }
+       }
     .search .in_search span {
       position: absolute;
       top: 14px;
@@ -299,6 +297,16 @@ li.parent_drop_menu ul li a {
       display: block;
       width: 100%;
       font-size: 14px; }
+	  
+	  .search2{
+		width:700px;
+		margin:30px auto;
+	  }
+	  .in_search2 {
+		height:40px;
+		line-height:40px;
+		border:1px solid #d7d7d7;
+	  }
 
 /*рфряЄрЎш  ьхэ■ хёыш эрфю сєфхЄ
 @media screen and (max-width: 900px){
